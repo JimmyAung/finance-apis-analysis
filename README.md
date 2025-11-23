@@ -25,6 +25,15 @@ finance-apis-analysis/
 - Get a free **Alpha Vantage** key and **do not commit it** (store locally, e.g., `alpha.key`).
 - See **/data/README.md** for where to place CSVs and how to re-run pulls.
 
+## Data Source & Docs
+
+- Data provider: **Alpha Vantage** — data © Alpha Vantage.
+- Get a free API key: https://www.alphavantage.co/support/#api-key
+- API docs: https://www.alphavantage.co/documentation/
+- Homepage: https://www.alphavantage.co/
+
+> Note: Alpha Vantage has request rate limits. Please respect their Terms.
+
 ## Quick Start
 1. Open the notebooks:  
    `notebooks/00_data_acquisition.ipynb` (pulls)  
@@ -34,3 +43,4 @@ finance-apis-analysis/
 ## Notes
 - Keys and raw dumps are excluded for safety and to respect API terms.
 - If `.twbx` files grow large, prefer screenshots or link to Tableau Public.
+
