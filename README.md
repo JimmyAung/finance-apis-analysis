@@ -3,23 +3,19 @@ API-driven analysis of macro & market data (Alpha Vantage). Includes notebooks f
 
 ![Tableau Overview](reports/Tableau_overview.png)
 
-
-**TL;DR.** Pull macro & market series from **Alpha Vantage**, clean in pandas, and build tidy views: **indexed close (100 = first)**, **daily % returns**, and **monthly % returns**. Optional Tableau dashboards/screenshots for presentation. Keys/data are excluded; see **/data/README.md** to reproduce.
-
-## Tableau Overview
-![Tableau Overview](reports/Tableau_overview.png)
+**TL;DR.** Pull macro & market series from **Alpha Vantage**, clean in pandas, and build tidy views: **indexed close (100 = first)**, **daily % returns**, and **monthly % returns**. Optional Tableau screenshots for presentation. Keys/data are excluded; see **/data/README.md** to reproduce.
 
 ## Project Summary
 - Pulled GDP (quarterly) and daily market series (**VTI**, **VXX**, **BTC**) via Alpha Vantage.
 - Cleaned/merged in pandas; created indexed (100=first) series and daily/monthly returns.
-- Built quick visuals in notebooks; exported views to Tableau for presentation.
+- Built quick visuals in notebooks; exported views/screenshots for presentation.
+
 
 ## Repository Structure
-
 finance-apis-analysis/
 ├─ data/ # instructions only; no raw data or keys
-├─ notebooks/ # 00_acquire_clean.ipynb, 01_analysis_visuals.ipynb
-├─ reports/ # PDF write-up, Tableau screenshots (PNG)
+├─ notebooks/ # 00_data_acquisition.ipynb, 01_clean_merge_views.ipynb
+├─ reports/ # PDF write-up, Tableau screenshots (PNG), twbx (small)
 ├─ .gitignore
 ├─ LICENSE # MIT
 └─ README.md
@@ -30,12 +26,11 @@ finance-apis-analysis/
 - See **/data/README.md** for where to place CSVs and how to re-run pulls.
 
 ## Quick Start
-1. Open the notebooks:
-   - `notebooks/00_acquire_clean.ipynb` – minimal pulls & tidy helpers
-   - `notebooks/01_analysis_visuals.ipynb` – indexed series + returns + small charts
-2. View **reports/** for the write-up (PDF) and **Tableau** screenshots.
+1. Open the notebooks:  
+   `notebooks/00_data_acquisition.ipynb` (pulls)  
+   `notebooks/01_clean_merge_views.ipynb` (indexed series, returns, small charts)
+2. See **reports/** for the PDF and **Tableau_overview.png**.
 
 ## Notes
 - Keys and raw dumps are excluded for safety and to respect API terms.
-- If `.twbx` files are large, prefer screenshots or link to Tableau Public.
-
+- If `.twbx` files grow large, prefer screenshots or link to Tableau Public.
