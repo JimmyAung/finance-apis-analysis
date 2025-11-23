@@ -1,4 +1,8 @@
 # finance-apis-analysis
+API-driven analysis of macro & market data (Alpha Vantage). Includes notebooks for acquisition/cleaning & simple visuals (indexed close, daily/monthly returns) plus Tableau screenshots. Keys/data excluded; see /data/README.md to reproduce.
+
+![Tableau Overview](reports/Tableau_overview.png)
+
 
 **TL;DR.** Pull macro & market series from **Alpha Vantage**, clean in pandas, and build tidy views: **indexed close (100 = first)**, **daily % returns**, and **monthly % returns**. Optional Tableau dashboards/screenshots for presentation. Keys/data are excluded; see **/data/README.md** to reproduce.
 
@@ -34,3 +38,4 @@ finance-apis-analysis/
 ## Notes
 - Keys and raw dumps are excluded for safety and to respect API terms.
 - If `.twbx` files are large, prefer screenshots or link to Tableau Public.
+
