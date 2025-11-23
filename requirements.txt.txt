@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+requests
+python-dateutil
+
+git add requirements.txt
+git commit -m "Add minimal requirements.txt"
+git push
