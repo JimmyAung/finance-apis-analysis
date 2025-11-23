@@ -25,14 +25,20 @@ finance-apis-analysis/
 - Get a free **Alpha Vantage** key and **do not commit it** (store locally, e.g., `alpha.key`).
 - See **/data/README.md** for where to place CSVs and how to re-run pulls.
 
-## Data Source & Docs
+## Data Source & Documentation
 
-- Data provider: **Alpha Vantage** — data © Alpha Vantage.
-- Get a free API key: https://www.alphavantage.co/support/#api-key
-- API docs: https://www.alphavantage.co/documentation/
-- Homepage: https://www.alphavantage.co/
+Data provider: **Alpha Vantage**  
+- Get a free API key: https://www.alphavantage.co/support/#api-key  
+- Docs home: https://www.alphavantage.co/documentation/
 
-> Note: Alpha Vantage has request rate limits. Please respect their Terms.
+**Endpoints used in this project**
+- Macro: `REAL_GDP` (Quarterly, USA)
+- Equities: `TIME_SERIES_DAILY` (VTI, VXX)
+- Crypto: `DIGITAL_CURRENCY_DAILY` (BTC, market = USD)
+
+**Attribution & Terms**
+This project uses the Alpha Vantage API. Please respect their rate limits and terms of service.
+
 
 ## Quick Start
 1. Open the notebooks:  
@@ -43,4 +49,5 @@ finance-apis-analysis/
 ## Notes
 - Keys and raw dumps are excluded for safety and to respect API terms.
 - If `.twbx` files grow large, prefer screenshots or link to Tableau Public.
+
 
