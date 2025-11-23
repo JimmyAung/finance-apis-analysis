@@ -46,8 +46,27 @@ This project uses the Alpha Vantage API. Please respect their rate limits and te
    `notebooks/01_clean_merge_views.ipynb` (indexed series, returns, small charts)
 2. See **reports/** for the PDF and **Tableau_overview.png**.
 
+
 ## Notes
 - Keys and raw dumps are excluded for safety and to respect API terms.
 - If `.twbx` files grow large, prefer screenshots or link to Tableau Public.
+
+  
+### Environment
+Tested on Python 3.13.
+
+```bash
+# create & activate a virtual environment (Windows)
+python -m venv .venv
+.venv\Scripts\activate
+
+# install deps
+pip install -r requirements.txt
+
+# launch notebooks
+jupyter notebook
+
+
+
 
 
