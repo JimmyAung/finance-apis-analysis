@@ -3,7 +3,5 @@ numpy
 matplotlib
 requests
 python-dateutil
+jupyter
 
-git add requirements.txt
-git commit -m "Add minimal requirements.txt"
-git push
